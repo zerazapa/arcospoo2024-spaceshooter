@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4165705147305229757}
   - component: {fileID: 1350284369965551861}
   m_Layer: 11
-  m_Name: EnemyLaser
+  m_Name: EnemyLaser0
   m_TagString: EnemyLaser
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -148,11 +148,11 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.015459031, y: -0.046377182}
+  m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.46875, y: 0.40625}
     newSize: {x: 0.5, y: 0.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69be2437a5b8d604aae726f68bd13e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: -5
+  moveSpeed: -2
 --- !u!114 &1350284369965551861
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,6 +187,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 20
-  effectTagName: HitFX
   objectEffect: {fileID: 7979616569856727185, guid: b67972a1b78ec974593e15eeb29e6eaf,
     type: 3}
